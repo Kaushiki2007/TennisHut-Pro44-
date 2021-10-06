@@ -9,27 +9,26 @@
     <script src="lib/p5.play.js"></script>
 
    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDSbYwCPpFCxO9fq9Om6GT--_qakna2dwA",
-    authDomain: "speedmaniapart1.firebaseapp.com",
-    databaseURL: "https://speedmaniapart1-default-rtdb.firebaseio.com",
-    projectId: "speedmaniapart1",
-    storageBucket: "speedmaniapart1.appspot.com",
-    messagingSenderId: "553905607195",
-    appId: "1:553905607195:web:b87220bfb27efd82c51ebe"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
+   <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAtJE1xZ4dt9xg6y40K48TnyopwmSxbhUA",
+      authDomain: "tennishut-e08dc.firebaseapp.com",
+      databaseURL: "https://tennishut-e08dc-default-rtdb.firebaseio.com",
+      projectId: "tennishut-e08dc",
+      storageBucket: "tennishut-e08dc.appspot.com",
+      messagingSenderId: "533152854718",
+      appId: "1:533152854718:web:133647015411a988b4e4ef"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 
     <script src="JS/Player.js"></script>
     <script src="JS/Form.js"></script>
